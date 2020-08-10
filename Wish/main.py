@@ -3,7 +3,7 @@ import datetime
 import smtplib
 
 GMAIL_ID = "____"  # Enter your email 
-GMAIL_PASSWORD = "___"  # Enter your email password Before this run Program 
+GMAIL_PASSWORD = "___"  # Enter your email password then run the Program 
 def sendEmail(to,sub,msg):
     print ("Successfully Send Email !!!!!!!!!!")
     s= smtplib.SMTP("smtp.gmail.com", 587)
